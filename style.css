@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4F5F6;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.none {
+  display: none;
+}
+
+.main-body {
+  width: 97%;
+}
+
+nav {
+  background-color: #F72210;
+}
+
+.nav-img {
+  width: 120px;
+}
+
+.nav-button {
+  width: 150px;
+}
+
+.nav-icons {
+  color: rgb(226, 226, 226);
+}
+
+.nav-button button{
+  padding: 2px 15px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #FFE400;
+}
+
+.img-text {
+  background-color: #eee;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  color: tomato;
+}
+
+.debate-1 {
+  border-top: 3px solid rgb(224, 224, 224);
+}
+
+.debate-2 {
+  border-bottom: 3px solid rgb(224, 224, 225);
+}
+
+.vs {
+  /* background-color: red; */
+  top: 90px;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  height: 5px;
+}
+
+.vs-text {
+ left: 370px;
+ border-radius: 50%;
+ background-color: black;
+ font-weight: 700;
+ color: white;
+}
+
+.opinion-1 {
+  height: 80px;
+  /* background-color: red; */
+}
+
+.stories-text {
+  padding-left: 15px;
+}
+
+.sign-up {
+  background-color: #F4F5F6;
+}
+
+.sign-up button {
+  background-color: #fc1905;
+}
+
+.n-logo {
+  margin-right: 5px;
+  height: 30px;
+  margin: auto 10px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-button {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-button button{
+    font-size: 17px;
+    background-color: #FFE400;
+  }
+
+  .login {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  .bars {
+    font-size: larger;
+    margin: auto 0;
+  }
+
+  nav .user {
+    display: none;
+  }
+
+  .mid-screen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-img {
+    height: 250px;
+  }
+
+  .turn-img {
+    width: 70px;
+  }
+
+  .my-turn {
+    line-height: 0!important;
+  }
+
+  .my-turn-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5em;
+  }
+
+  .top-stories-2 {
+    height: 200px;
+  }
+
+  .stories {
+    height: 100px;
+    line-height: 1rem;
+  }
+
+  .opinion-text {
+    margin-left: 15px;
+  }
+
+  .sign-up {
+    width: 40%;
+  }
+
+  .sign-text {
+    font-weight: 700;
+  }
+
+  .magazine {
+    /* background-color: red; */
+    width: 200px;
+    /* padding: 10px; */
+  }
+
+  .magazine img {
+    height: 30px;
+    margin-right: 5px;
+  }
+}
