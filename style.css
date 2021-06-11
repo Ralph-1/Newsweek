@@ -1,0 +1,437 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.none {
+  display: none;
+}
+
+.mar {
+  margin-right: 10px;
+}
+
+.main-body {
+  width: 97%;
+}
+
+nav {
+  background-color: #f72210;
+}
+
+.nav-img {
+  width: 120px;
+}
+
+.nav-button {
+  width: 150px;
+}
+
+.nav-icons {
+  color: rgb(226, 226, 226);
+}
+
+.nav-button button {
+  padding: 2px 15px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #ffe400;
+}
+
+.img-text {
+  background-color: #eee;
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  color: tomato;
+}
+
+.debate-1 {
+  border-top: 3px solid rgb(224, 224, 224);
+}
+
+.debate-2 {
+  border-bottom: 3px solid rgb(224, 224, 225);
+}
+
+.vs {
+  top: 95px;
+  height: 5px;
+}
+
+.vs-text {
+  left: 50%;
+  border-radius: 50%;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+}
+
+.opinion-1 {
+  height: 80px;
+}
+
+.opinion-1 img {
+  margin-right: 15px;
+}
+
+.stories-text {
+  padding-left: 15px;
+}
+
+.sign-up {
+  background-color: #f4f5f6;
+}
+
+.sign-up button {
+  background-color: #fc1905;
+}
+
+.n-logo {
+  height: 30px;
+  margin: auto 10px auto 1px;
+}
+
+.magazine {
+  width: 200px;
+  padding: 15px 10px 1px 10px;
+}
+
+.magazine img {
+  width: 20px;
+  height: 20px;
+  margin: auto 10px auto 1px;
+}
+
+.magazine p {
+  margin: auto 10px auto 1px;
+  font-weight: 500;
+}
+
+.magazine-item button {
+  background-color: #dbdcdd;
+}
+
+.magazine-text {
+  bottom: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.health-details button {
+  padding: 3px 5px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 700;
+}
+
+.btn-1 {
+  background-color: red;
+  color: white;
+}
+
+.btn-2 {
+  background-color: white;
+  color: rgb(250, 0, 0);
+}
+
+.subscribe {
+  padding: 20px;
+  height: auto;
+}
+
+.sub-details {
+  height: auto;
+}
+
+.sub-text {
+  margin-top: 17rem;
+  width: 80%;
+  text-align: center;
+}
+
+.us-2 img {
+  margin-right: 10px;
+  width: 250px;
+}
+
+.sub-1 {
+  left: 35%;
+  top: 2rem;
+}
+
+.sub-2 {
+  width: 170px;
+  left: 45%;
+  top: 3rem;
+}
+
+.sub-btn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(245, 2, 2);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.news-img {
+  height: 250px;
+  background-image: url(./images/newsletter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.news-input input {
+  width: 50%;
+  border-radius: 0;
+  border: none;
+  border: 1px solid #eee;
+}
+
+.news-input button {
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+
+.editions {
+  flex-wrap: wrap;
+}
+
+.editions p {
+  margin-right: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-button {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-button button {
+    font-size: 17px;
+    background-color: #ffe400;
+  }
+
+  .login {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+
+  .bars {
+    font-size: larger;
+    margin: auto 0;
+  }
+
+  nav .user {
+    display: none;
+  }
+
+  .mid-screen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-img {
+    height: 250px;
+  }
+
+  .turn-img {
+    width: 70px;
+  }
+
+  .my-turn {
+    line-height: 0;
+  }
+
+  .my-turn-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.5em;
+  }
+
+  .top-stories-2 {
+    height: 200px;
+  }
+
+  .stories {
+    height: 100px;
+    line-height: 1rem;
+  }
+
+  .opinion-text {
+    margin-left: 15px;
+  }
+
+  .sign-up {
+    width: 40%;
+  }
+
+  .sign-text {
+    font-weight: 700;
+  }
+
+  .magazine {
+    width: 200px;
+  }
+
+  .magazine img {
+    height: 30px;
+    margin-right: 5px;
+    width: 30px;
+  }
+
+  .the-magazine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5em;
+  }
+
+  .magazine-item img {
+    width: 95%;
+  }
+
+  .editor-picks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .us-text {
+    color: rgb(238, 2, 2);
+    margin-left: 20px;
+    font-weight: 700;
+  }
+
+  .us_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .us-div img {
+    padding: 1px 5px;
+  }
+
+  .us-2 img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .us-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sub-details {
+    height: 300px;
+  }
+
+  .sub-text {
+    margin: 10% 0 0 40%;
+    width: 80%;
+    text-align: start;
+  }
+
+  .sub-2 {
+    left: 4rem;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .news-img {
+    height: 200px;
+  }
+
+  footer {
+    border-top: 2px solid rgb(241, 240, 240);
+  }
+
+  .footer-text {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    max-width: 1324px;
+    margin: 0 auto;
+  }
+
+  .nav-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-button-2 {
+    width: 220px;
+    margin-top: 40px;
+  }
+
+  .nav-button-2 button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #ffe400;
+    margin-left: 13px;
+  }
+
+  .main-lg {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1fr;
+    column-gap: 10px;
+  }
+
+  .sign {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .editor-picks {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .news_letter {
+    width: 35%;
+    height: 400px;
+  }
+
+  .news_letter button {
+    padding: 8px 43px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(253, 253, 253);
+    background-color: rgb(250, 3, 3);
+    font-size: 15px;
+  }
+
+  .news-grid {
+    height: 305px;
+  }
+}
